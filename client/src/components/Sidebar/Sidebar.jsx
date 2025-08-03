@@ -1,16 +1,19 @@
 import { Plus } from "lucide-react";
 
-export default function FileTree() {
+import NavBar from "./Navbar";
+import FileTree from "./FileTree/FileTree";
+
+export default function Sidebar() {
   return (
     <div className="flex w-1/5 border-r border-r-zinc-800">
-      <div className="w-1/8 border-r border-r-zinc-800"></div>
-      <div className="flex w-full flex-col p-2">
+      <NavBar />
+      <div className="flex w-full flex-col gap-2 p-2">
         <div className="flex w-full justify-end">
           <button>
             <Plus className="text-white" />
           </button>
         </div>
-        <div></div>
+        <FileTree />
       </div>
     </div>
   );
