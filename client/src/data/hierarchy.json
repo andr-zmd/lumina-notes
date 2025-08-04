@@ -1,0 +1,40 @@
+[
+  {
+    "name": "Linear Algebra",
+    "type": "file"
+  },
+  {
+    "name": "English",
+    "type": "folder",
+    "children": [
+      {
+        "name": "Macbeth Notes",
+        "type": "folder",
+        "children": [
+          {
+            "name": "Chapter 1",
+            "type": "file"
+          },
+          {
+            "name": "Chapter 2",
+            "type": "file"
+          },
+          {
+            "name": "Chapter 3",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "name": "Class Notes",
+        "type": "folder",
+        "children": [
+          {
+            "name": "Analyzing",
+            "type": "file"
+          }
+        ]
+      }
+    ]
+  }
+]
