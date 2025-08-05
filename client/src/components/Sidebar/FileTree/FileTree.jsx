@@ -10,7 +10,7 @@ export default function FileTree() {
     <div className="flex flex-col">
       {hierarchyData.map((data) =>
         data.type == "file" ? (
-          <File fileData={data} />
+          <File fileData={data} level={0} />
         ) : (
           <Folder folderData={data} level={0} />
         ),

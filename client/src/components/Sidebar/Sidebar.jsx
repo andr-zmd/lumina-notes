@@ -7,10 +7,10 @@ export default function Sidebar() {
   return (
     <div className="flex w-1/6 border-r border-r-zinc-800">
       <NavBar />
-      <div className="flex w-full flex-col gap-2">
-        <div className="flex w-full justify-end">
+      <div className="flex w-full flex-col">
+        <div className="flex w-full items-center justify-end p-2">
           <button>
-            <Plus className="text-white" />
+            <Plus color="white" size={20} />
           </button>
         </div>
         <FileTree />
