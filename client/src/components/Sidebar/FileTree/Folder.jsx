@@ -8,7 +8,7 @@ export default function Folder({ folderData, level }) {
   const [isFolderOpen, setIsFolderOpen] = useState(false);
 
   const toggleFolder = () => {
-    setIsFolderOpen(!isFolderOpen);
+    setIsFolderOpen((prevState) => !prevState);
   };
 
   return (
